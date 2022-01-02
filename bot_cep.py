@@ -29,10 +29,10 @@ def handle(msg):
         bot.sendMessage(chat_id, txt)  # send result
 
 
-TOKEN = ''  # your token
+TOKEN = '5035172963:AAGeHx8APzmaPWXAazzwW7B36h-PLb6HKlA'  # your token
 
 bot = telepot.Bot(TOKEN)
-MessageLoop(handle).run_as_thread()
+MessageLoop(bot, handle).run_as_thread()
 print('Please wait')
 print('Modo de uso para consultas: /cep 12345-123')
 
