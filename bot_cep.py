@@ -32,12 +32,7 @@ def handle(msg):
 TOKEN = ''  # your token
 
 bot = telepot.Bot(TOKEN)
-<<<<<<< HEAD
-ot = telepot.Bot(TOKEN)
 MessageLoop(handle).run_as_thread()
-=======
-MessageLoop(bot, handle).run_as_thread()
->>>>>>> 95a7f4ae8138a0d3b5b2ed42e09de71233764fca
 print('Please wait')
 print('Modo de uso para consultas: /cep 12345-123')
 
