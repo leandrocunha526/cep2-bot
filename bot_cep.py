@@ -29,7 +29,7 @@ def handle(msg):
         bot.sendMessage(chat_id, txt)  # send result
 
 
-TOKEN = '5035172963:AAGeHx8APzmaPWXAazzwW7B36h-PLb6HKlA'  # your token
+TOKEN = ''  # your token
 
 bot = telepot.Bot(TOKEN)
 MessageLoop(bot, handle).run_as_thread()
